@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 
 
-public class Operations {
+class Operations {
 	
 	//Addition function gives sum of two numbers
 	public double Add(double a, double b)
@@ -31,10 +31,12 @@ public class Operations {
 	}
 }
 
-	public static void main(String args[])
+public class Calculator
 	{
-		public class Calculator
-		{
+		public static void main(String args[])
+	    {
+		
+			double a,b;
 			Operations o = new Operations();
 			Scanner sc=new Scanner(System.in);
 			System.out.println("Enter the two numbers : ");
@@ -47,3 +49,5 @@ public class Operations {
 		
 				
 	}
+	
+	
